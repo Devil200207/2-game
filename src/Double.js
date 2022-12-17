@@ -42,10 +42,10 @@ class Doubletem extends React.Component
             <div className="view-area">
                 <div>{digit}</div>
                 <div>
-                  <input style={{marginLeft:-20}} type={"button"} onClick={this.increaseByTwo} value="+2"/>
-                  <input type={"button"} onClick={this.dereaseByTwo} value="-2"/>
-                  <input type={"button"} onClick={this.multiplyByTwo} value="*2"/>
-                  <input type={"button"} onClick={this.devideByTwo} value="/2"/>
+                  <input style={{marginLeft:-20}} type={"button"} onClick={this.increaseByTwo} value="Add 2"/>
+                  <input type={"button"} onClick={this.dereaseByTwo} value="Subtract 2"/>
+                  <input type={"button"} onClick={this.multiplyByTwo} value="Multiply by 2"/>
+                  <input type={"button"} onClick={this.devideByTwo} value="Divide by 2"/>
                 </div>
             </div>
         );
